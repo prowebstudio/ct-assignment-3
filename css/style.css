@@ -1,0 +1,599 @@
+*{
+	margin:0px;
+	padding: 0px;
+
+	}
+body{
+
+		font-family: 'Roboto', sans-serif;
+
+	}
+
+
+.header{
+		
+	width: 100%;
+	
+	float: left;
+	background-color: white;
+	height: 100px;
+
+	}
+.container{
+
+
+		margin:0 auto;
+		width: 1140px;
+	}
+
+.logo{
+
+		width: 20%;
+		float: left;
+
+	}
+.logo img{	
+
+		margin-top: 18px;
+		margin-left:19px;
+		width: 80%;
+	}
+.nav{
+		width: 50%;
+		float: left;
+	}
+
+
+.nav ul{
+
+
+}
+.nav ul li{
+		margin-top: 40px;
+			
+	list-style-type: none;
+	display: inline-block;
+
+
+	
+
+
+	
+}
+
+
+	
+
+
+.nav ul li a{
+
+
+	transition: 0.5s ease;
+	text-decoration: none;
+	color: black;
+	padding:10px 15px;
+	background-color: white;
+
+	border-radius: 5px;
+	transition: 0.5s ease-in-out;
+
+	
+}
+.nav ul li a:hover{
+	transition: 0.5s ease;
+	text-decoration: none;
+	color: white;
+	background-color: #FFC0CB;
+
+}
+
+
+
+.icon{
+		width: 30%;
+		float: left;
+
+	}
+
+	.icon ul{
+
+	}
+
+
+.icon ul li {
+
+	margin-top: 40px;
+			
+	list-style-type: none;
+	display: inline-block;
+}
+
+.icon ul li a {
+	font-size:20px;
+	transition: 0.5s ease;
+	text-decoration: none;
+	color: pink;
+	padding:10px 15px;
+	background-color: white;
+	transition: 0.5s ease;
+
+
+}
+.icon ul li a:hover{
+background-color: pink;
+color: white;
+
+}
+
+.banner{
+background-image:url(../img/banner.jpg);
+background-size: cover;
+		width: 100%;
+		float: left;
+	}
+
+.bimg{
+		height: 500px;
+		
+		background-size: cover;
+		
+	}
+
+.b-left{		
+			
+			width:40%;
+			margin:75px;
+			float: left;
+			height: 350px;
+			background-color:#a9a9a945;
+		}
+.b-left h2{
+    text-align:center;
+	padding:70px;
+	font-size:30px;
+
+}
+.b-left h4{
+    text-align:center;
+	padding:15px;
+	font-size:10px;
+}
+	
+.btn{
+
+	padding:10px 15px;
+	margin-left:55px;
+	transition: 0.5s ease;
+
+}	
+
+
+
+.btn:hover{
+
+	background-color: #FFC0CB;
+}
+.planning{
+
+		width: 100%;
+		float: left;
+	}
+
+
+.pn {
+
+	width: 100%;
+	float: left;
+}
+
+
+
+.fa-check{
+	font-size: 30px;
+	padding: 10px;
+	background: pink;
+	color:white;
+	border-radius: 25px;
+	margin-bottom: 10px;
+}
+
+.fa-heart{
+	font-size: 30px;
+	padding: 10px;
+	background: pink;
+	color:white;
+	border-radius: 25px;
+	margin-bottom: 10px;
+}
+.fa-coffee{
+	font-size: 30px;
+	padding: 10px;
+	background: pink;
+	color:white;
+	border-radius: 25px;
+	margin-bottom: 10px;
+}
+.fa-handshake-o{
+	font-size: 30px;
+	padding: 10px;
+	background: pink;
+	color:white;
+	border-radius: 25px;
+	margin-bottom: 10px;
+}
+	.p-one{
+
+		text-align: center;
+		margin-right: 10px;
+		padding: 15px;
+		width: 21%;
+		float: left;
+		height: auto;
+	}
+	.p-one h3{
+
+		padding: 10px;
+	}
+
+    .p-one p{
+
+		padding: 10px;
+		line-heigh:10px;
+		text-align: -webkit-auto;
+		text-transform:capitalize;
+
+	}
+
+
+	.p-two{
+		text-align: center;
+		margin-right: 10px;
+		padding: 15px;
+		width: 21%;
+		float: left;
+		
+		height: auto;
+	}
+	.p-two h3{
+
+		padding: 10px;
+	}
+    .p-two p{
+
+		padding: 10px;
+		
+		text-align: -webkit-auto;
+		text-transform:capitalize;
+
+	}
+
+	.p-three{
+		text-align: center;
+		margin-right: 10px;
+		padding: 15px;
+		width: 21%;
+		float: left;
+		height: auto;
+	}
+	.p-three h3{
+
+		padding: 10px;
+	}
+	.p-three p{
+
+		padding: 10px;
+	
+		text-align: -webkit-auto;
+		text-transform:capitalize;
+
+	}
+
+	.p-four{
+		text-align: center;
+		margin-right: 10px;
+		padding: 15px;
+		width: 21%;
+		float: left;
+		height: auto;
+	}
+
+	.p-four h3{
+
+		padding: 10px;
+		writing-mode: 
+	}
+
+	.p-four p{
+
+		padding: 10px;
+	
+		text-align: -webkit-auto;
+		text-transform:capitalize;
+
+	}
+
+
+.pn-btn {
+	padding: 5px 15px;
+	margin:10px;
+	transition: 0.5s ease;
+
+}
+
+.pn-btn:hover{
+
+	background-color: #FFC0CB;
+}
+	.why{
+		background-color:#FBFBFD;
+		width: 100%;
+		float: left;
+	}
+
+
+		.why-left{
+
+			margin-right:10%;
+
+			background-image:url(../img/g.jpg);
+			background-size: cover;
+			padding-left: 30px;
+			
+			float: left;
+			padding: 80px;
+		}
+
+
+.why-left h3{
+
+	text-align: center;
+	padding:15px;
+}
+
+.why-left ul {
+
+	padding-left:20px;
+	
+	}
+.why-left ul li{
+
+	padding-left:20px;
+	color: black;
+	}
+
+
+
+	.why-right{
+
+			
+			
+
+			background-image:url(../img/g.jpg);
+			background-size: cover;
+			padding-left: 30px;
+			
+			float: left;
+			padding: 80px;
+		}
+		
+	.why-right h3{
+	text-align: center;
+	padding:15px;
+}
+
+.why-right ul {
+
+	padding-left:20px;
+	
+	}
+.why-right ul li{
+
+	padding-left:20px;
+	color: black;
+	}
+
+
+.why-btn{
+
+	padding:5px 10px;
+	margin:20px 0px;
+	transition: 0.5s ease;
+}
+	.why-btn:hover{
+		 background-color:#FFC0CB;
+
+
+	}
+
+	.blog{
+
+		width: 100%;
+		float: left;
+	}
+
+.blog-area{
+
+	width: 100%;
+}
+.blog-area h3{
+	display: block;
+	margin:20px;
+	text-align: center;
+}
+.blog-left{
+
+
+	width: 50%;
+	
+	float: left;
+}
+
+
+
+.blog-left h4{
+	padding: 10px 60px;
+
+}
+
+.blog-left p{
+padding: 20px 60px;
+margin-bottom: 20px;
+}
+
+
+
+.blog-right{
+
+	width: 50%;
+	
+	float: left;
+}
+.blog-right h4{
+padding: 10px 60px;
+}
+
+.blog-right p{
+	padding: 20px 60px;
+	margin-bottom: 20px;
+}
+
+
+
+.blog-btn{
+
+	padding:5px 15px;
+	margin-left:60px;
+	transition: 0.5s ease;
+	margin-bottom: 50px;
+	
+	
+
+}	
+
+
+
+	.blog-btn:hover{
+        background-color:#FFC0CB;
+	}
+
+
+
+	.location{
+		background: url(../img/add.jpg);
+		background-size: cover;
+		width: 100%;
+		float: left;
+	}
+
+
+	.location-content{
+
+
+		padding: 50px;
+
+		text-align: center;
+		margin:;
+
+	}
+
+	.location-content h3{
+		display: inline-block;
+		padding: 10px;
+		font-weight: bold;
+
+	}
+
+	.loc-spn-one{
+
+		float: left;
+	}
+
+	
+	.ratings{
+
+		
+		width: 100%;
+		float: left;
+	}
+
+
+	.ratings-area h3{
+		text-align: center;
+			display: inline-block;
+			
+			color: black;
+
+
+	}
+
+	.ratings-area{
+		padding: 100px;
+		text-align: center;
+		
+	}
+
+	.ratings-area i{
+
+		font-size: 25px;
+		background-color: #73CF11;
+		color: white;
+	}
+.ratings-area p{
+
+	padding: 10px;
+}
+
+	
+
+	
+	.clients{
+		background-color: #808080;
+		width: 100%;
+		float: left;
+
+	}
+	 .clients-logo{
+	 	margin:0 auto;
+	 }
+	
+	.clients-area h2{
+
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+
+
+.im-one{
+
+	width: 18%;
+	height: auto;
+	float: left;
+	display: block;
+	margin-bottom: 20px;
+
+}
+
+.im-one:hover{
+
+	border: 1px solid white;
+}
+
+.footer{
+	background-color: #DFE1E0;
+	width:100%;
+	float:left;
+}
+
+.footer-left{
+	padding: 20px;
+	width: 30%;
+	float: left;
+	margin-left: 20%;
+}
+.footer-right{
+	padding: 20px;
+	width: 30%;
+	float: left;
+}
